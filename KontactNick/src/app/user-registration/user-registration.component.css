@@ -1,0 +1,28 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Расстояние между элементами */
+  max-width: 400px; /* Ограничьте ширину формы */
+  margin: 0 auto; /* Центрируйте форму */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
